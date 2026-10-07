@@ -14,7 +14,7 @@ export class AppComponent {
   newName: string = '';
 
   // PASTE YOUR RENDER BACKEND URL HERE + /api/test
-  apiUrl = 'https://YOUR-RENDER-BACKEND-URL.onrender.com/api/test';
+  apiUrl = 'https://testit-3v1l.onrender.com/api/test';
 
   constructor(private http: HttpClient) {
     this.fetchNames();
